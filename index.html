@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amor e CASH freestyle</title>
+    <link rel="stylesheet" href="estilos/style.css" media="all">
+    <link rel="stylesheet" href="estilos/retrato.css" media="screen and (orientation: portrait)">
+    <link rel="stylesheet" href="estilos/paisagem.css" media="screen and (orientation: landscape)">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+</head>
+<body onresize="mudouTamanho()">
+    <div id="logo">
+        <div id="empresa01"><a href="#"><img src="favicon.ico" alt="logo Stovyz">Stovyz</a></div>
+    </div>
+    <header>
+        <h1>Amor e CASH freestyle</h1> 
+        <p>Produzida por: Grupo Stovyz</p>
+    </header>
+    <span id="burguer"
+    class="material-symbols-outlined" onclick="clickMenu()"> menu
+</span>
+     <menu id="itens">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="mailto:stovytt?subject=&body=L" target="_blank">Fale Conosco</a></li>
+            <li><a href="sobre.html">Sobre</a></li>
+
+        </ul>
+    </menu>
+    <main>
+        <h1 class="conteudo">Como foi o desenvolvimento da musica</h1>
+        <p>Uma união de amigos se juntaram e decidiram iniciar um projeto de uma música, <a class="externo" href="https://www.instagram.com/miguel_fialh0/" target="_blank">Miguel</a> foi o grande responsável pelo beat, <a class="externo" href="https://www.instagram.com/nycollas.y2k/" target="_blank">Nicolas</a> responsável pela letra da música <a  class="externo" href="https://www.instagram.com/guilherme0012._/" target="_blank">Guilherme</a> produziu o refrão e a capa, enquanto o <a class="externo" href="https://www.instagram.com/davim.alp/" target="_blank">Davi</a> foi o responsável pela produção da divulgação.
+        <br>
+        Com essa organização criamos a <strong>Música: Amor e CASH freestyle.</strong></p>
+        <h2 class="conteudo">O intuito da música</h2>
+        <p>A música tem o grande Intuito de mostrar que tendo apenas força de vontade podemos crescer no ramo musical, provando que qualquer pessoa pode ser um artista musical, basta ter dedicação e mentalizar o objetivo afrente. <br>
+        Por tudo dentro de nossos corações criamos essa musica com esse objetivo traçado, queremos servir de motivação para novos artistas, Mas para isso contamos com você sua participação é essencial, sem você não podemos ir mais longe, por isso <strong>divulgue</strong> nossa música e o pincipal, o nosso objetivo, com sua colaboração podemos ajudar outras pessoas.</p>
+        <section>
+                    <div class="pri-div">
+                     <h1 class="div">Ouça-nos</h1>
+                        <img src="imagens/logo-youtube.jpg" alt="Youtube"> <td><a class="div-music" href="#" target="_blank">Canal do Youtube</a></td> <br>
+                        <img src="imagens/logo-spotify.jpg" alt="Spotify"> <td> <a class="div-music" href="#" target="_blank">Spotify</a></td> <br>
+                       <img src="imagens/logo-deezer.png" alt=""><td><a href="#" class="div-music" target="_blank">Deezer</a></td></img>
+                    </div>
+        </section>
+        <p class="linha-final">Então é isso, Espero que tenha gostado do nosso site, não se esqueça de <strong>divulgar </strong>a nossa musica, muito obrigado!</p>
+    </main>
+    <footer>
+            <div>
+                <nav><a href="extra.html">LOJA</a>
+                <a href="extra.html">NOTICIAS</a>
+                <a href="extra.html">SHOWS</a>
+            </nav>
+                <p>Site propiamente criado por <a id="daviroda" href="https://github.com/DaviRoda" target="_blank">Davi Roda</a> para Stovyz</p>
+            </div>
+            <p class="copy">© Direitos Autorais Stovyz</p>
+        </div>
+    </footer>
+    <script>
+        function mudouTamanho() {
+            if (window.innerWidth >= 800) {
+                itens.style.display = 'block'
+            } else {
+                itens.style.display = 'none'
+            }
+        }
+
+        function clickMenu() {
+            if (itens.style.display == 'block') {
+                itens.style.display = 'none'
+            } else {
+                itens.style.display = 'block'
+            }
+        }
+    </script> 
+</body>
+</html>
